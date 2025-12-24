@@ -8,7 +8,7 @@ The drugs used are as follows:
 *  Control
 
 ## Processing
-![image](https://github.com/user-attachments/assets/89946568-1166-4c63-a68f-e42a3ecb08bb)
+![image](https://github.com/user-attachments/assets/97308a1f-9e8b-4c26-bbf2-04b3ded2d401)
 
 ## Result
 * Drug A vs Drug B
