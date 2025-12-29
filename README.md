@@ -1,4 +1,4 @@
-# Dengue virus-associated RNA-seq pipeline
+# RNA-seq pipeline
 ## Purpose
 There are samples treated with different drugs. This analysis compares the samples to determine which genes are highly or lowly expressed in the samples treated with Drug A.   
 The drugs used are as follows:
