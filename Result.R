@@ -1,4 +1,4 @@
-setwd('./dengue/htseq_counts')
+setwd('./htseq_counts')
 
 library(edgeR)
 library(pheatmap)
