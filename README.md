@@ -1,7 +1,7 @@
 # RNA-seq pipeline
 ## Purpose
 * There are samples treated with various drugs. This analysis compares two samples to determine which genes are highly or lowly expressed in the sample treated with **Drug A**, and which pathways are enriched in the genes.  
-* The results were obtained through a request from another laboratory, so the specific genes and pathways involved are not disclosed.  
+* Since this analysis was conducted at the request of another laboratory, the specific sample names, genes, and pathways will not be disclosed.
 * The drugs used are as follows:
 > 1. **Drug A**
 > 2. Drug B
