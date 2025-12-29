@@ -12,7 +12,11 @@ The drugs used are as follows:
 
 ## Result
 * Drug A vs Drug B
+![image](https://github.com/user-attachments/assets/ff379ce9-c444-4a04-8295-b2a2732efc5b)
 
 * Drug A vs Drug C
+![image](https://github.com/user-attachments/assets/0cfe914e-011c-4d84-9ad6-a8ec2b9f73d0)
 
 * Drug A vs Control
+![image](https://github.com/user-attachments/assets/fa66bf30-0ba2-4623-97f0-7758173a2035)
+
