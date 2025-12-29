@@ -166,8 +166,6 @@ down_gene_go_top_Control_DrugA <- down_gene_go_all_Control_DrugA %>%
   ungroup() %>%
   mutate(Description = factor(Description, levels = rev(unique(Description))))
 
-# Control vs DrugA
-options(repr.plot.width = 14, repr.plot.height = 12)
 ggplot(up_gene_go_top_Control_DrugA, aes(x = Description, y = -log10(p.adjust), fill = ONTOLOGY)) +
   geom_bar(stat = "identity", width=0.8, color='black') +
   coord_flip(clip='off') +
@@ -184,7 +182,6 @@ ggplot(up_gene_go_top_Control_DrugA, aes(x = Description, y = -log10(p.adjust), 
        fill = "Ontology") +
   theme(plot.title = element_text(hjust = 0.5))
 
-options(repr.plot.width = 14, repr.plot.height = 12)
 ggplot(down_gene_go_top_Control_DrugA, aes(x = Description, y = -log10(p.adjust), fill = ONTOLOGY)) +
   geom_bar(stat = "identity", width=0.8, color='black') +
   coord_flip(clip='off') +
