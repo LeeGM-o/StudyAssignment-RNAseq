@@ -9,7 +9,7 @@
 > 4. Control
 
 ## Processing
-![image](https://github.com/user-attachments/assets/97308a1f-9e8b-4c26-bbf2-04b3ded2d401)
+![image](https://github.com/user-attachments/assets/4ae44360-a9c6-48d1-8194-ee5c105e347d)
 
 ## Result
 * Drug A vs Drug B
