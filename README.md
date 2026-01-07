@@ -21,8 +21,8 @@
 * Drug A vs Control
 ![image](https://github.com/user-attachments/assets/fa66bf30-0ba2-4623-97f0-7758173a2035)
 
-## Expansion
-### Snakemake
+# RNA-seq Pipeline Expansion
+## Snakemake
 Snakemake is a workflow management system that efficiently automates data analysis pipelines and enhances reproducibility. It defines **rule** using Python-based syntax to identify data dependencies, automatically executes tasks using a **DAG(Directed Acyclic Graph)** approach, and is a universal tool scalable from single cores to clusters and the cloud. It is particularly widely used in bioinformatics, enabling complex analysis processes to be specified in scripts (Snakefiles) for easy management and sharing.
 ```
 pip install snakemake
@@ -45,6 +45,6 @@ Once a Snakefile is created, it is executed as follows:
 $ snakemake -s Snakefile [bulid target] -j [number]
 ```
 
-### Citation
-[https://haje01.github.io/2020/04/21/snakemake-tutorial.html](https://haje01.github.io/2020/04/21/snakemake-tutorial.html)
+## Citation
+[https://haje01.github.io/2020/04/21/snakemake-tutorial.html](https://haje01.github.io/2020/04/21/snakemake-tutorial.html)   
 [https://snakemake.readthedocs.io/en/stable/](https://snakemake.readthedocs.io/en/stable/)
