@@ -35,10 +35,10 @@ rule RULE_NAME:
     output:
     run, script, shell, notebook:
 ```
-* shell: Describes shell commands
-* run: Directly specifies Python scripts
-* script: Specifies the path to a Python script file
-* notebook: Specifies the path to a Jupyter notebook file   
+* **shell**: Describes shell commands
+* **run**: Directly specifies Python scripts
+* **script**: Specifies the path to a Python script file
+* **notebook**: Specifies the path to a Jupyter notebook file   
 
 Once a Snakefile is created, it is executed as follows:
 ```
