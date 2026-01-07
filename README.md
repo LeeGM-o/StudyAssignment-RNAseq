@@ -27,18 +27,22 @@ Snakemake is a workflow management system that efficiently automates data analys
 ```
 pip install snakemake
 ```
-
-To process this, a workflow file called Snakefile is first required. Snakemake operates according to the contents of this workflow file.
-As described earlier, a workflow consists of one or more task nodes. In Snakemake, these nodes are called *Rule* and are declared in the Snakefile using the keyword `rule`. A rule fundamentally has the following structure:
+To process input files, a workflow file called a Snakefile is first required. Snakemake operates according to the contents of this workflow file.
+The workflow consists of one or more task nodes. Snakemake refers to these nodes as `rule`, declared in the Snakefile using the keyword `rule`. A rule fundamentally has the following structure:
 ```
 rule RULE_NAME:
     input:
     output:
     run, script, shell, notebook:
 ```
+* shell: Describes shell commands
+* run: Directly specifies Python scripts
+* script: Specifies the path to a Python script file
+* notebook: Specifies the path to a Jupyter notebook file   
 
 Once a Snakefile is created, it is executed as follows:
 ```
 snakemake -s Snakefile [bulid target] -j [number]
 ```
 
+## Citation
