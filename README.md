@@ -46,5 +46,5 @@ $ snakemake -s Snakefile [bulid target] -j [number]
 ```
 
 ### Citation
-![https://haje01.github.io/2020/04/21/snakemake-tutorial.html](https://haje01.github.io/2020/04/21/snakemake-tutorial.html)
-![https://snakemake.readthedocs.io/en/stable/](https://snakemake.readthedocs.io/en/stable/)
+[https://haje01.github.io/2020/04/21/snakemake-tutorial.html](https://haje01.github.io/2020/04/21/snakemake-tutorial.html)
+[https://snakemake.readthedocs.io/en/stable/](https://snakemake.readthedocs.io/en/stable/)
